@@ -1,1 +1,42 @@
 /* Soluzione qui */
+
+@media screen and (min-width:768px) {
+  #topbar{
+    justify-content: start;
+  }
+
+  .container{
+    padding: 20px;
+  }
+
+  .recipe-origin {
+    display: inline-block;
+  }
+
+  .quick-notes ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+   .blender, .clock, .pie, .cost, .pin{
+    width: calc(100% / 3);
+  }
+
+  .social-networks {
+    justify-content: space-around;
+  }
+
+  .social-networks .btn{
+    padding: 10px 50px;
+  }
+
+  .ads{
+    display: block;
+  }
+
+  .presentation img{
+    float: left;
+    margin-right: 10px;
+  }
+
+}
