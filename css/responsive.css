@@ -62,6 +62,7 @@
 
   .recipe-video{
     width: 70%;
+    max-height: 420px;
   }
 
   .blender, .clock, .pie, .cost, .pin{
